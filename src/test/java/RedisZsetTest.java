@@ -11,7 +11,7 @@ import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = Application.class)
-public class RedisTest {
+public class RedisZsetTest {
 
     @Autowired
     ZSetService zSetService;

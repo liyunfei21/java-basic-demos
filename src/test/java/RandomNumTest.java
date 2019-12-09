@@ -9,7 +9,6 @@ public class RandomNumTest {
     public static void main(String[] args) {
         ThreadLocalRandom current = ThreadLocalRandom.current();
         for(int i = 0; 10 > i; i++){
-
             Object num = current.nextFloat();
             System.out.println(num);
         }
