@@ -1,3 +1,5 @@
+package redis;
+
 import dto.Rule;
 import org.junit.Test;
 import org.junit.runner.RunWith;
