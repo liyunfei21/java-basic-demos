@@ -15,3 +15,6 @@ docker images | grep none | awk {'print $3'} | xargs docker rmi -f
 
 echo "docker images"
 docker images
+
+
+echo "应用地址: http://47.98.179.114:8100"
