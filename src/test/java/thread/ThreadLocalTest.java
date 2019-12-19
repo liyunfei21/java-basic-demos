@@ -18,6 +18,7 @@ public class ThreadLocalTest {
         threadPoolExecutor.execute(new Random("c"));
         threadPoolExecutor.execute(new Random("d"));
         threadPoolExecutor.execute(new Random("e"));
+        threadPoolExecutor.shutdown();
     }
 
     private static class Random implements Runnable {
@@ -33,10 +34,6 @@ public class ThreadLocalTest {
         @Override
         public void run() {
             local.set(name);
-            save();
-        }
-
-        private void save() {
             System.out.println(local.get());
         }
     }

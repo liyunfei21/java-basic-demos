@@ -6,7 +6,7 @@ import org.springframework.context.annotation.ComponentScans;
 
 @SpringBootApplication
 @SpringBootConfiguration
-@ComponentScan("redis")
+@ComponentScan(basePackages = {"redis","api"})
 public class Application {
 
     public static void main(String[] args) {

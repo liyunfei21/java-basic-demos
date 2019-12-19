@@ -13,7 +13,6 @@ import java.util.List;
 import java.util.Set;
 import java.util.stream.Collectors;
 
-@Service
 public class ZSetService {
 
     private final BoundZSetOperations<String,String> zSetOperations;
