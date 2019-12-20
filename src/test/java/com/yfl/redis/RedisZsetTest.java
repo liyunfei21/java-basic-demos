@@ -1,7 +1,8 @@
 package com.yfl.redis;
 
 import com.yfl.DemoApplication;
-import com.yfl.dto.Rule;
+import com.yfl.hello.dto.Rule;
+import com.yfl.hello.service.ZSetService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;

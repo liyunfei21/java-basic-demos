@@ -1,7 +1,7 @@
-package com.yfl.redis;
+package com.yfl.hello.service;
 
 import com.alibaba.fastjson.JSON;
-import com.yfl.dto.Rule;
+import com.yfl.hello.dto.Rule;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.BoundValueOperations;
 import org.springframework.data.redis.core.BoundZSetOperations;

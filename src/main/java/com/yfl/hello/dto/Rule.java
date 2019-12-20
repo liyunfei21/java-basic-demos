@@ -1,4 +1,4 @@
-package com.yfl.dto;
+package com.yfl.hello.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;

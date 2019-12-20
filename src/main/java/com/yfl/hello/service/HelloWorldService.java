@@ -1,4 +1,4 @@
-package com.yfl.service;
+package com.yfl.hello.service;
 
 import com.google.common.collect.Maps;
 import org.springframework.beans.factory.annotation.Autowired;
