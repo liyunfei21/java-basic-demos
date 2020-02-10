@@ -1,7 +1,7 @@
 package com.yfl.libs;
 
 import java.math.BigDecimal;
-import java.util.Random;
+import java.util.Date;
 import java.util.concurrent.ThreadLocalRandom;
 
 public class RandomNumTest {
@@ -12,15 +12,20 @@ public class RandomNumTest {
      * */
     public static void main(String[] args) {
 //        thread();
-        ThreadLocalRandom current = ThreadLocalRandom.current();
-        for (int i = 0; i < 10000; i++) {
-            double v = current.nextDouble(0.01, 0.2);
-            BigDecimal b = new BigDecimal(v);
-            v = b.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
-            if (v == 0) {
-                System.out.println(i);
-            }
-        }
+//        ThreadLocalRandom current = ThreadLocalRandom.current();
+//        for (int i = 0; i < 100; i++) {
+//            double v = current.nextDouble(0.01, 1.0);
+//            System.out.println(v);
+//
+//            BigDecimal b = new BigDecimal(v);
+//            v = b.setScale(2, BigDecimal.ROUND_HALF_UP).doubleValue();
+//            if (v == 0) {
+//            }
+//            System.out.println(v);
+
+//        }
+        System.out.println(new Date(System.nanoTime()).toLocaleString());
+        System.out.println(new Date(System.currentTimeMillis()).toLocaleString());
     }
 
     private static void thread() {
