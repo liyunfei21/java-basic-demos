@@ -11,8 +11,8 @@ public class ListTest {
     static final List list = new ArrayList(3);
 
     public static void main(String[] args) {
-        int l = 84;
-        for (int i = 0; i <= l; i++) {
+        int l = 4;
+        for (int i = 0; i < l; i++) {
             list.add(i);
         }
 
